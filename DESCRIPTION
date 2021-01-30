@@ -1,11 +1,25 @@
 Package: top2vecr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Distributed Representations of Topics
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: c(person(given = "Michal",
+             family = "Ovadek",
+             role = c("aut", "cre", "cph"),
+             email = "michal.ovadek@gmail.com",
+             comment = c(ORCID = "0000-0002-2552-2580")))
+Maintainer: Michal Ovadek <michal.ovadek@gmail.com>
+Description: Top2vec is a topic modelling technique relying on jointly learned document and word embeddings.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Depends:
+    R (>= 3.4.0)
+Imports:
+    magrittr,
+    dplyr,
+    rlang,
+    doc2vec,
+    uwot,
+    dbscan
+Suggests:
+    ggplot2
