@@ -7,6 +7,7 @@
 #' @importFrom magrittr %>%
 #'
 #' @param x A `data.frame` object with columns `doc_id` and `text` storing document ids and texts as character vectors
+#' @param dim Integer value defining the length of embedding vectors
 #'
 #' @return
 #' An object of class ...
