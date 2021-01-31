@@ -22,4 +22,6 @@ Imports:
     uwot,
     dbscan
 Suggests:
-    ggplot2
+    ggplot2,
+    testthat
+RoxygenNote: 7.1.1
