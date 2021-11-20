@@ -23,7 +23,7 @@ is used to identify document clusters.
 As opposed to the original Python implementation, this package does not
 yet support the use of pre-trained sentence encoders and transformers.
 
-*Development halted due to performance limitations in UMAP's R implementation*
+**Development halted due to performance limitations in UMAP's R implementation**
 
 ## Installation
 
